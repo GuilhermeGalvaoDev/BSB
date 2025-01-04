@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSB Soluções Financeiras</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #181818;
+            color: #E4E4E4;
+            overflow-x: hidden;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(24, 24, 24, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            transition: background 0.3s;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #CFCFCF;
+            text-align: center;
+            font-weight: 600;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+        }
+        nav a {
+            color: #BFBFBF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #FFFFFF;
+        }
+        main {
+            padding-top: 80px;
+        }
+        section {
+            min-height: 100vh;
+            padding: 60px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+        .intro, .services, .franchises, .contact {
+            width: 100%;
+            max-width: 100%;
+            background: #202020;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #D4AF37;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p {
+            width: 70%;
+            line-height: 1.8;
+            color: #D6D6D6;
+            font-size: 1.1rem;
+        }
+        ul {
+            padding-left: 20px;
+            text-align: left;
+            color: #D0D0D0;
+            font-size: 1rem;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        footer {
+            background: linear-gradient(90deg, #202020, #282828);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #A8A8A8;
+        }
+        footer a {
+            color: #D4AF37;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        address a {
+            color: #D4AF37;
+            text-decoration: none;
+        }
+        address a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>BSB Soluções Financeiras</h1>
+        <nav>
+            <a href="#intro">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#franchises">Franquias</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="intro">
+            <h2><strong>Bem-vindo à BSB Soluções Financeiras</strong></h2>
+            <p><b>Somos referência em soluções financeiras e de seguros personalizadas. Oferecemos serviços que simplificam a vida de nossos clientes, garantindo segurança e eficiência em cada operação.</b></p>
+            <img src="quadrant_3_foco.png" alt="Imagem: Representando confiança e segurança">
+        </section>
+
+        <section class="services" id="services">
+            <h2>Nossos Serviços</h2>
+            <p><b>Explore nosso portfólio abrangente de soluções financeiras, incluindo:</b</p>
+            <ul>
+                <li>Soluções Bancárias e Digitais</li>
+                <li>Seguros Personalizados</li>
+                <li>Crédito e Financiamento</li>
+                <li>Consórcios e Benefícios</li>
+                <li>Proteção e Serviços Adicionais</li>
+                <li>Câmbio e Operações Financeiras</li>
+            </ul>
+            <img src="quadrant_1.png" alt="Imagem: Representando inovação e tecnologia">
+        </section>
+
+        <section class="franchises" id="franchises">
+            <h2><strong>Modelo de Franquias</strong></h2>
+            <p><b>Nosso modelo de franquias é desenhado para promover crescimento sustentável, oferecendo suporte contínuo e oportunidades estratégicas para franqueados.</b></p>
+            <ul>
+                <li>Franquias Agências BSB</li>
+                <li>Franqueados Home Office</li>
+                <li>Franqueado Master</li>
+            </ul>
+            <img src="imagem3.jpg" alt="Imagem: Representando expansão e rede de franquias">
+        </section>
+
+        <section class="contact" id="contact">
+            <h2><strong>Entre em Contato</strong></h2>
+            <p><b>Estamos prontos para atender você e sua empresa. Fale conosco para mais informações.</b></p>
+            <address>
+                Rua da Paisagem n° 220, cj 11 CWK – Vila da Serra – Nova Lima – MG – CEP 34.006-059<br>
+                Telefone: (31) 3519 3930<br>
+                Email: <a href="mailto:bsbsolucaoemfinancas@gmail.com">bsbsolucaoemfinancas@gmail.com</a>
+            </address>
+            <img src="quadrant_4.png" alt="Imagem: Representando comunicação e suporte">
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 BSB Soluções Financeiras. Todos os direitos reservados. <a href="#header">Voltar ao topo</a>
+    </footer>
+</body>
+</html>
